@@ -91,6 +91,7 @@ ul li a:hover {
   color: white;
   background: var(--green);
 }
+
 .icons i {
   color: white;
   padding: 10px;
@@ -270,7 +271,7 @@ button a:hover {
   visibility: hidden;
 }
 
-.single-card:hover .dish-heart{
+.single-card:hover .dish-heart {
   visibility: visible;
 }
 
@@ -318,18 +319,18 @@ button a:hover {
 }
 
 /* ===== about end ===== */
-.review-card{
+.review-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: repeat(1, 1fr);
   gap: 10px;
 }
-.single-card-head{
+.single-card-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.review-single{
+.review-single {
   padding: 10px;
 }
 .review-single-card {
@@ -339,18 +340,18 @@ button a:hover {
   box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.325);
 }
 
-.left-side{
+.left-side {
   display: flex;
   align-items: center;
 }
 
-.left-side .img img{
-  width: 50px; 
-  height: 50px; 
+.left-side .img img {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
-.single-card-head .fa-quote-right{
+.single-card-head .fa-quote-right {
   font-size: 60px;
   color: #ccc;
   line-height: 60px;
@@ -448,6 +449,9 @@ textarea {
 .footer-nav .single-nav li a:hover {
   color: var(--green);
   text-decoration: underline;
+}
+.footer-nav .single-nav .email {
+  text-transform: lowercase;
 }
 
 .copyright {
