@@ -298,6 +298,7 @@ button a:hover {
   align-items: center;
   gap: 40px;
   text-align: left;
+  margin-bottom: 20px;
 }
 .about-text-side h3 {
   font-size: 40px;
@@ -395,7 +396,6 @@ button a:hover {
 form label {
   text-transform: capitalize;
   font-size: 34px;
-
   text-align: left;
 }
 
@@ -406,13 +406,19 @@ form {
 form input,
 textarea {
   font-size: 18px;
-  padding: 10px;
+  padding: 20px;
   font-weight: 400;
   background-color: #eee;
   border: none;
   border-radius: 10px;
   width: 400px;
   color: var(--black);
+  outline: none;
+}
+
+form input:focus,
+textarea:focus {
+  border: 2px solid var(--green);
 }
 .order-box .sub {
   color: var(--bg-color);
