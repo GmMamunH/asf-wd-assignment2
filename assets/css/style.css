@@ -1,3 +1,15 @@
+/*  ========================
+* As-Sunnah Skill Development Institute
+* Web Development Batch 2
+* Assignment 2 (Food Delivery Website layout design)
+* 24 February 2024
+* Md Mamun Hossain 
+* Discord User Name:- gmmamunh
+* Gmail:- gmmamun3004@gmail.com
+* Contact:- 01406566242
+========================  */
+
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
 /* ====== reset ======*/
@@ -339,6 +351,7 @@ button a:hover {
   border-radius: 8px;
   box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.325);
 }
+
 
 .left-side {
   display: flex;
