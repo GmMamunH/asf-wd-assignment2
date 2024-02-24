@@ -9,7 +9,6 @@
 * Contact:- 01406566242
 ========================  */
 
-
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
 /* ====== reset ======*/
@@ -116,7 +115,9 @@ ul li a:hover {
 }
 
 /* ====== header end ======= */
-#home {
+#home,
+#about,
+#review {
   background-color: var(--card-bg);
 }
 .home {
@@ -193,6 +194,7 @@ button a {
 button a:hover {
   color: #fff;
   background: var(--green);
+  padding: 10px 70px;
 }
 
 /* ========== reset h2 h2 button end ========*/
@@ -289,10 +291,6 @@ button a:hover {
 
 /* ===== grid end ===== */
 
-#about {
-  background-color: #fff;
-}
-
 .about-body,
 .about-text-card {
   display: flex;
@@ -331,6 +329,9 @@ button a:hover {
 }
 
 /* ===== about end ===== */
+.review {
+  background-color: #fff;
+}
 .review-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -351,7 +352,6 @@ button a:hover {
   border-radius: 8px;
   box-shadow: 2px 2px 9px 0 rgba(0, 0, 0, 0.325);
 }
-
 
 .left-side {
   display: flex;
@@ -395,6 +395,8 @@ button a:hover {
 form label {
   text-transform: capitalize;
   font-size: 34px;
+
+  text-align: left;
 }
 
 form {
@@ -412,8 +414,7 @@ textarea {
   width: 400px;
   color: var(--black);
 }
-
-.sub {
+.order-box .sub {
   color: var(--bg-color);
   padding: 10px 0px;
   text-transform: capitalize;
@@ -422,8 +423,7 @@ textarea {
   font-size: 17px;
   width: 200px;
 }
-
-.sub:hover {
+.order-box .sub:hover {
   background-color: var(--green);
 }
 
